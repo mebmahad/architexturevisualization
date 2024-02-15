@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Work Schedule</title>
+</head>
+<body>
+    <h2>Daily Work Schedule</h2>
+    <form action="http://127.0.0.1:5000/" method="post">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="morning">Morning Tasks:</label><br>
+        <input type="text" id="morning" name="morning" placeholder="Enter tasks for morning" required><br><br>
+
+        <label for="afternoon">Afternoon Tasks:</label><br>
+        <input type="text" id="afternoon" name="afternoon" placeholder="Enter tasks for afternoon" required><br><br>
+
+        <label for="evening">Evening Tasks:</label><br>
+        <input type="text" id="evening" name="evening" placeholder="Enter tasks for evening" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
